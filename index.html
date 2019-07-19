@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>bithday</title>
    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="dist/css/bootstrap.min.css" media="all" type="text/css">
-</head>
+   <link rel="stylesheet" href="dist/css/bootstrap.min.css" media="all" type="text/css">
+    
+  </head>
 <body>
-  
+    
 <div class="container">
     <div class="jumbotron" style="background:gray">
       <h1>Description</h1>      
@@ -19,38 +20,20 @@
      <form>
         <h3><i>ways to calculate the day of the week from a specific date.</i></h3>
         <b>
-            <script type="text/javascript">
-
-             
-              
-              function getTheDay(aText)
-              
-              {
-              
-              myDays=
-              
-              ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
-              
-              myDate=new Date(eval('"'+aText.value+'"'))
-              
-              document.form1.textDay.value=myDays[myDate.getDay()]
-              
-              }
-              
-              //-->
-              
-              </script> 
+           
         <div>
           <p>What is your gender?</p><b></b>
-          <input type="radio" name="gender" value="male" id="gender"> Male
-          <input type="radio" name="gender" value="female" id="gender">female <br>
+          <input type="radio" name="optradio" value="male" id="gender" checked> Male
+          <input type="radio" name="optradio" value="female" id="gender">female <br>
           <p>Enter your birthday:<b></p>
-          <input type="date" name="bd" id="day"> 
+          <input type="date"  id="day"> 
         </div> 
           <br>
-          <input type=button value="Calculate" onClick="calculate()">
-          <input type="submit" name="Submit">
-   
+          <button type="button"  onClick="weekdays()">submit</button>
+          <p>the name is:</p><b> 
+          <p id="names"></p>  
+          <p>calculate the day of the week you were born:</p>
+          <p id="diplay"></p>
      </form>
     </div>
       
@@ -58,5 +41,6 @@
         <p>copyright2019</p>
     </div>
 </div>
+<script src="script.js" type="text/javascript"></script>
 </body>
 </html>
