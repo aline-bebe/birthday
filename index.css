@@ -1,5 +1,19 @@
+body{
+    background-image: url("images/keith-misner-h0Vxgz5tyXA-unsplash.jpg");
+}
+
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: black;
     padding: 20px;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    color: white;
+    text-align: center;
   }

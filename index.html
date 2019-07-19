@@ -15,67 +15,25 @@
       <h1>Description</h1>      
       <p>You may know what year and the exact date you were born...but let me ask you this question: "What day of the week was that?" This script tells you that!</p>
     </div>
-   
-    <form>
-        
+    <div class="well" style="background:whitesmoke">
+     <form>
+        <div>
           <p>What is your gender?</p>
           <input type="radio" name="gender" value="male"> Male
-          <input type="radio" name="gender" value="female"> female
-          
-        
-      <p class="fallbackLabel">Enter your birthday:</p>
-      <div class="fallbackDatePicker">
-        <span>
-          <label for="day">Day:</label>
-          <select id="day" name="day">
-             <script>
-             
-             for(var b=01;b<=31;b++){
-             
-             document.write("<option>"+b+"</option>")
-             }
-             </script>
-          </select>
-        </span>
-        <span>
-          <label for="month">Month:</label>
-          <select id="month" name="month">
-            <option selected>January</option>
-            <option>February</option>
-            <option>March</option>
-            <option>April</option>
-            <option>May</option>
-            <option>June</option>
-            <option>July</option>
-            <option>August</option>
-            <option>September</option>
-            <option>October</option>
-            <option>November</option>
-            <option>December</option>
-          </select>
-        </span>
-        <span>
-          <label for="year">Year:</label>
-          <select id="selectElementId"></select>
+          <input type="radio" name="gender" value="female"> female <br>
+          <p>Enter your birthday:<b></p>
+          <input type="date" name="bd"> 
+        </div> 
+          <br>
 
-<script>
-    var min = 1900,
-    max = 2087,
-    select = document.getElementById('selectElementId');
-
-    for (var i = min; i<=max; i++){
-       var opt = document.createElement('option');
-       opt.value = i;
-       opt.innerHTML = i;
-       select.appendChild(opt);
-    }
-</script>
-          
-        </span>
-      </div>
-  </form>
+          <input type="submit" name="Submit">
+   
+     </form>
+    </div>
       
-  </div>
-
+    <div class="footer">
+        <p>copyright2019</p>
+    </div>
+</div>
 </body>
 </html>
