@@ -19,7 +19,7 @@ ALINE Ingabire
 in this potofolio i used html and css
 
 ## support and contact details : 
-for any issues or question and ideas plz contact me on ingabirealine40@gmail.com and https://github.com/aline-bebe
+for any issues or question and ideas plz contact me on ingabirealine40@gmail.com and 
 ## license : 
 MIT license 
 copyright2019
