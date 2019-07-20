@@ -1,20 +1,20 @@
-body{
-    background-image: url("images/keith-misner-h0Vxgz5tyXA-unsplash.jpg");
-}
+    body{
+        background-image: url("images/keith-misner-h0Vxgz5tyXA-unsplash.jpg");
+    }
 
-.container {
-   
-    background-color: black;
-    padding: 20px;
-    height: 100%;
-  }
-
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    .container {
     
-    color: white;
-    text-align: center;
-  }
+        background-color: black;
+        padding: 20px;
+        height: 100%;
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        
+        color: white;
+        text-align: center;
+    }
