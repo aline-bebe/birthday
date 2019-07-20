@@ -10,6 +10,7 @@ ALINE Ingabire
 - visual code,
 - ubuntu or Terminal,
 -  google chrome
+## BDD
 
 ## project setup instruction:
 - git clone
