@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>bithday</title>
    <link rel="stylesheet" href="index.css">
-   <link rel="stylesheet" href="dist/css/bootstrap.min.css" media="all" type="text/css">
-   <script src="script.js" type="text/javascript"></script>    
+   <link rel="stylesheet" href="dist/css/bootstrap.min.css" media="all" type="text/css" />
+   <script src="theScript.js" type="text/javascript"></script>
   </head>
 <body>
     
@@ -17,24 +17,27 @@
       <p>You may know what year and the exact date you were born...but let me ask you this question: "What day of the week was that?" This script tells you that!</p>
     </div>
     <div class="well" style="background:whitesmoke">
-     <form>
+     <form action="" method="POST" >
         <h3><i>ways to calculate the day of the week from a specific date.</i></h3>
-        <b>
            
         <div>
-          <p>What is your gender?</p><b></b>
-          <input type="radio" name="optradio" value="male" id="gender" checked> Male
-          <input type="radio" name="optradio" value="female" id="gender">female <br>
-          <p>Enter your birthday:<b></p>
-          <input type="date"  id="day"> 
-        </div> 
-          <br>
-          <button type="button"  onClick="weekdays()">submit</button>
-          <p>the name is:</p><b> 
-          <p id="names"></p>  
-          <p>calculate the day of the week you were born:</p>
-          <p id="diplay"></p>
-     </form>
+          <p><b>What is your gender?</b></p>
+          <input type="radio" name="optradio" value="Male" id="Mgender" /> Male
+          <input type="radio" name="optradio" value="Female" id="Fgender" />female <br>
+          <p><b>Enter your birthday:</b></p>
+          <input type="date"  id="input" required />
+        </div>
+
+        <br>
+        <button type="button"  onClick="thedate()">submit</button>
+    </form>
+
+     <br><br>
+    <p><b>The Name is:</b></p> 
+    <p id="names"></p>
+    <p>Born on:</p>
+    <p id="theWeekDay"></p>
+
     </div>
       
     <div class="footer">
