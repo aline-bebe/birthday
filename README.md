@@ -1,6 +1,6 @@
 # Akan names
 
-#### Akan names: shows all about me 
+#### Akan names: shows how to display day of birthday
 ## Authors: 
 ALINE Ingabire
 ## description :
