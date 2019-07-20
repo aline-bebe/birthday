@@ -4,12 +4,13 @@
 ## Authors: 
 ALINE Ingabire
 ## description :
- this is a potofolio where you can get information about my experiences,education background, skills that i have and project that i have designed.
+ Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a day name which corresponds to the day in the week they were born.
 ## Installation requirement/setup:
 - text editor,
 - visual code,
 - ubuntu or Terminal,
 -  google chrome
+
 ## project setup instruction:
 - git clone
 - code .
@@ -19,4 +20,5 @@ in this potofolio i used html and css
 ## support and contact details : 
 for any issues or question and ideas plz contact me on ingabirealine40@gmail.com and https://github.com/aline-bebe
 ## license : 
-MIT license copyright2019
+MIT license 
+copyright2019
